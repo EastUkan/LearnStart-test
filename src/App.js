@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Route, Switch } from "react-router";
 
 import Container from "./components/Container/Container";
@@ -9,11 +9,6 @@ import Stories from "./pages/Stories";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
-
-  useEffect(() => {
-    const body = document.querySelector("body");
-    body.style.overflow = showModal ? "hidden" : "auto";
-  }, [showModal]);
 
   const toggleModal = () => {
     setShowModal(!showModal);
