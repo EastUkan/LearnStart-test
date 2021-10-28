@@ -1,0 +1,14 @@
+.wrapper {
+  padding: 0 10px;
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.wrapper ul {
+  list-style: none;
+}
+@media screen and (max-width: 767px) {
+  .wrapper {
+    padding: 0;
+  }
+}

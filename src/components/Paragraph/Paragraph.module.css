@@ -1,0 +1,10 @@
+.text {
+  margin-top: 20px;
+  font-size: var(--fs-sm);
+  color: var(--primary-color);
+}
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: var(--fs-sm-mobile);
+  }
+}

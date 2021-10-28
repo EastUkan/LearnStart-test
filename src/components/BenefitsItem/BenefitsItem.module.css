@@ -1,0 +1,33 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 0;
+}
+
+.list:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.textWrapper {
+  width: 515px;
+}
+
+.imgBox {
+  height: 370px;
+  width: 370px;
+  background-color: var(--primary-color);
+}
+@media screen and (max-width: 767px) {
+  .list {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+  .textWrapper {
+    padding: 100px 10px;
+    width: 100%;
+  }
+  .imgBox {
+    width: 100%;
+  }
+}

@@ -1,0 +1,41 @@
+.hero {
+  height: 54rem;
+  width: 100%;
+  background-color: var(--main-color);
+
+  padding: 33% 25px 0;
+}
+
+.heroStories {
+  padding: 145px 25px 0;
+  text-align: center;
+  height: 23rem;
+  width: 100%;
+  background-color: var(--main-color);
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: var(--fs-large-x);
+  font-weight: var(--fw-bold);
+  color: white;
+}
+
+.text {
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  font-size: var(--fs-sm);
+}
+@media screen and (max-width: 767px) {
+  .hero {
+    height: 48rem;
+    padding: 20% 25px 0;
+    text-align: center;
+  }
+  .title {
+    font-size: var(--fs-large);
+  }
+  .text {
+    font-size: var(--fs-sm-mobile);
+  }
+}

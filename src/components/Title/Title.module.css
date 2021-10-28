@@ -1,0 +1,10 @@
+.title {
+  font-size: var(--fs-large);
+  font-weight: var(--fw-normal);
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: var(--fs-md);
+  }
+}

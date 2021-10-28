@@ -1,0 +1,45 @@
+.item {
+  margin-right: 37px;
+  width: 360px;
+  max-height: 840px;
+  border: 2px solid var(--primary-color);
+}
+
+.imgBox {
+  height: 315px;
+  background-color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-left: 20px;
+  font-size: var(--fs-md);
+  font-weight: var(--fw-light);
+}
+
+.authorBox {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+}
+
+.name {
+  margin-left: 15px;
+  font-size: var(--fs-sm);
+  color: var(--primary-color);
+}
+@media screen and (max-width: 767px) {
+  .text {
+    font-size: var(--fs-md-mobile);
+  }
+  .name {
+    font-size: var(--fs-sm-mobile);
+  }
+}
